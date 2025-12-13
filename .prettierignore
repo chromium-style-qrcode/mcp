@@ -1,0 +1,6 @@
+# Prettier-only ignores.
+CHANGELOG.md
+dist/
+node_modules/
+src/wasm/
+*.wasm

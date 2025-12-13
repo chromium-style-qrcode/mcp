@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.chromium-style-qrcode/mcp",
+  "title": "Chromium Style QR Code Generator",
+  "description": "MCP server for generating Chromium-style QR codes with optional Dino logo or custom center image",
+  "repository": {
+    "url": "https://github.com/chromium-style-qrcode/mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@chromium-style-qrcode/mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": []
+    }
+  ]
+}
