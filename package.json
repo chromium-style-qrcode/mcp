@@ -1,6 +1,7 @@
 {
   "name": "@chromium-style-qrcode/mcp",
   "version": "1.0.0-alpha.1",
+  "mcpName": "io.github.chromium-style-qrcode/mcp",
   "description": "MCP server for generating Chromium-style QR code with optional Dino logo",
   "type": "module",
   "main": "dist/index.js",

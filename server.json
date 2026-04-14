@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.chromium-style-qrcode/mcp",
   "title": "Chromium Style QR Code Generator",
   "description": "MCP server for generating Chromium-style QR codes with optional Dino logo or custom center image",
