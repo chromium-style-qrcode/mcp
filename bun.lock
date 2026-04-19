@@ -5,7 +5,7 @@
     "": {
       "name": "qr-code-mcp-server",
       "dependencies": {
-        "@chromium-style-qrcode/generator": "^1.0.1",
+        "@chromium-style-qrcode/generator": "^1.0.2",
         "@modelcontextprotocol/sdk": "^1.0.1",
         "@napi-rs/canvas": "^0.1.65",
         "zod": "^3.24.1",
@@ -31,7 +31,7 @@
     },
   },
   "packages": {
-    "@chromium-style-qrcode/generator": ["@chromium-style-qrcode/generator@1.0.1", "", { "dependencies": { "@chromium-style-qrcode/generator": "^1.0.0" } }, "sha512-1ioTWHe30UwB0G2CQhEAayivA0a80d+npTAnY7JfNbg/Z34KGUNsu2kYO4yr+CkqJ6GTFVQzuA8PK3kcwFOIZQ=="],
+    "@chromium-style-qrcode/generator": ["@chromium-style-qrcode/generator@1.0.2", "", {}, "sha512-EEGxZknuJQJj2ZpX0gwI00z8/g20KykU67dDjz/4RxDR3txUE6Bi6zjbXRWnxTYGDe5RxeeypfT2YONzFaJM6g=="],
 
     "@emnapi/core": ["@emnapi/core@1.7.1", "https://registry.npmmirror.com/@emnapi/core/-/core-1.7.1.tgz", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-o1uhUASyo921r2XtHYOHy7gdkGLge8ghBEQHMWmyJFoXlpU58kIrhhN3w26lpQb6dspetweapMn2CSNwQ8I4wg=="],
 

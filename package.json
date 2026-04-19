@@ -30,7 +30,7 @@
     "prepublishOnly": "bun run lint && bun run format:check && bun run build"
   },
   "dependencies": {
-    "@chromium-style-qrcode/generator": "^1.0.1",
+    "@chromium-style-qrcode/generator": "^1.0.2",
     "@modelcontextprotocol/sdk": "^1.0.1",
     "@napi-rs/canvas": "^0.1.65",
     "zod": "^3.24.1"
