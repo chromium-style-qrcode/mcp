@@ -11,7 +11,7 @@ import { generateQRCode } from './qr-generator.js';
 const server = new Server(
   {
     name: 'chromium-style-qrcode-mcp',
-    version: '1.0.1',
+    version: '1.0.2',
   },
   {
     capabilities: {
