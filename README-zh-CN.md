@@ -14,6 +14,8 @@
 
 ## 安装
 
+> **说明：** 不需要指定 `type: "stdio"` 字段 — 它是通过 `command` 和 `args` 配置的 MCP 服务的默认传输方式。
+
 ### 使用 npx（推荐）
 
 无需安装：
@@ -21,7 +23,7 @@
 ```jsonc
 {
   "mcpServers": {
-    "qrcode": {
+    "io.github.chromium-style-qrcode/mcp": {
       "command": "npx",
       "args": ["-y", "@chromium-style-qrcode/mcp"]
     }
@@ -34,7 +36,7 @@
 ```jsonc
 {
   "mcpServers": {
-    "qrcode": {
+    "io.github.chromium-style-qrcode/mcp": {
       "command": "bunx",
       "args": ["@chromium-style-qrcode/mcp"]
     }
@@ -53,7 +55,7 @@ npm install -g @chromium-style-qrcode/mcp
 ```jsonc
 {
   "mcpServers": {
-    "qrcode": {
+    "io.github.chromium-style-qrcode/mcp": {
       "command": "chromium-style-qrcode-mcp"
     }
   }

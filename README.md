@@ -14,6 +14,8 @@ An MCP (Model Context Protocol) server for generating Chromium-style QR codes wi
 
 ## Installation
 
+> **Note:** The `type: "stdio"` field is not required — it's the default transport for MCP servers configured with `command` and `args`.
+
 ### Using npx (recommended)
 
 No installation required:
@@ -21,7 +23,7 @@ No installation required:
 ```jsonc
 {
   "mcpServers": {
-    "qrcode": {
+    "io.github.chromium-style-qrcode/mcp": {
       "command": "npx",
       "args": ["-y", "@chromium-style-qrcode/mcp"]
     }
@@ -34,7 +36,7 @@ No installation required:
 ```jsonc
 {
   "mcpServers": {
-    "qrcode": {
+    "io.github.chromium-style-qrcode/mcp": {
       "command": "bunx",
       "args": ["@chromium-style-qrcode/mcp"]
     }
@@ -53,7 +55,7 @@ Then configure the MCP client:
 ```jsonc
 {
   "mcpServers": {
-    "qrcode": {
+    "io.github.chromium-style-qrcode/mcp": {
       "command": "chromium-style-qrcode-mcp"
     }
   }
